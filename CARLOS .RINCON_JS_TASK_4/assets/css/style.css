@@ -1,0 +1,198 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#carouselExampleDark{
+    height: 20%;
+}
+h1{
+    padding-bottom: 5rem;
+}
+.selects{
+    display: none
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: aqua;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+main{
+    height:70%;
+    padding: 1rem;
+    
+}
+.sociallinks img{
+    height: 2rem;
+}
+main{
+    background-color: #eee;
+    background: no-repeat center  url(https://img.freepik.com/free-vector/watercolor-background_87374-69.jpg?w=2000);
+    background-size: 100% 100%; 
+}
+/*form contac style*/
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 66vh;
+}
+h6{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.cardconter{
+    display: flex;
+    width: 18rem;
+}
+
+.form-contact {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.form-contact textarea{
+    height: 10rem;
+    border: 1px solid black;
+}
+.form-contact input{
+    border: 1px solid black;
+}
+input.form-submit {
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 10px;
+    border: 0;
+}
+
+.form-submit{
+    background-color: rgba(40, 134, 196, 0.37);
+}
+/*tanble style*/
+.mstats{
+    height: 70vh;
+    padding: 6rem 2rem 0 2rem;
+}
+
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    empty-cells: hide;
+}
+
+td{
+    empty-cells: show;
+    color:white
+}
+
+.table {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.ctable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.table h2{
+    background-color:rgba(27, 113, 226, 0.144);
+    margin: 0 !important;
+    font-size: 30px;
+    padding: 6px;
+    border: 1px solid #000000c9;
+}
+#containerdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+th, td{
+    width: 33%;  
+    font-size: 12px;
+    text-align: center;
+}
+.card{
+    background-color: transparent;
+    font-weight: bolder;
+    color: #444;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    transition: all .5s ease;
+    box-shadow: 2rem 2rem 3rem #fff,
+    -2rem -2rem 3rem #ccc;
+}
+.card:hover{
+    box-shadow: 4rem 4rem 6rem #ccc,
+    -3rem -2rem 3rem #fff;
+}
+/*media*/
+@media screen and (min-width: 768px) {
+
+    .content-select{
+        display: none;
+    }
+    .selects{
+        display: flex;
+        gap: 0.5rem;
+        
+    }
+    .mstats{
+        min-height: 80vh;
+    }
+
+}
+@media screen and (min-width: 1920px) {
+
+    main{
+        height: 100%;
+    }
+    .container-fluid{
+        gap: 60%;
+    }
+    .mstats{
+        min-height: 80vh;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container-fluid{
+    align-items: flex-end;}
+
+}
+@media screen and (min-width:425px) {
+    main{
+        min-height: 80vh;
+    }
+    .mstats{
+        min-height: 100vh;
+    }
+
+}
